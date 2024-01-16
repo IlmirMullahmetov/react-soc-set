@@ -1,0 +1,21 @@
+.friends{
+    border: 1px solid #e6e6e6;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background: white;
+    box-shadow: 0px 0px 10px #dfdcdc;
+}
+.friends {
+    
+    font-size: 14px;
+}
+.friends span{
+    color:rgb(179, 2, 2);
+}
+
+.friendsBlock {
+    display: flex;
+    gap: 10px;
+    
+}

@@ -1,0 +1,7 @@
+.friendItem img{
+    border-radius: 50%;
+    max-width: 55px;
+}
+.friendItem{
+    text-align: center;
+}

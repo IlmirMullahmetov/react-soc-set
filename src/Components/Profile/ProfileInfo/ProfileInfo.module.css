@@ -1,0 +1,45 @@
+.profileInfo {
+  
+  padding: 30px 10px 10px 10px;;
+  position: relative;
+}
+
+.slider {
+  
+  border-radius: 10px 10px 0px 0px;
+  position: relative;
+
+}
+
+.slider img {
+  box-shadow: 0px 0px 10px #dfdcdc;
+  border-radius: 10px 10px 0px 0px;
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.profileInfo__avatar img{
+  top: -40%;
+    position: absolute;
+    z-index: 999;
+    border: 5px solid white;
+    width: 150PX;
+    border-radius: 50%;
+}
+.profileInfo__avatar{
+  box-shadow: 0px 0px 10px #dfdcdc;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+    margin-top: -30px;
+    min-height: 130px;
+    top: 40%;
+    z-index: auto;
+    z-index: 999;
+    background: white;
+    padding-left: 20px;
+    position: relative;
+    display: flex;
+}
+.profileInfo__avatarImage{
+  width: 170px;
+}

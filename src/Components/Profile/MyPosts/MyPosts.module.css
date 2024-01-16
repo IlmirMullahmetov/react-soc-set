@@ -1,0 +1,36 @@
+.myPosts {
+    padding: 10px;
+}
+
+.createPost {
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+.createPost textarea {
+    box-shadow: 0px 0px 10px #dfdcdc;
+    min-height: 80px;
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid rgb(230 230 230);
+
+}
+
+.createPost button {
+
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid rgb(230 230 230);
+    transition: .5s;
+    box-shadow: 0px 0px 10px #dfdcdc;
+}
+
+.createPost button:hover {
+    color: #b30202;
+    border: 2px solid #b30202;
+
+
+    cursor: pointer;
+}
+
