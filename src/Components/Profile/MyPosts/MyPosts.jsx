@@ -5,6 +5,7 @@ import React from 'react';
 const MyPosts = (props) => {
   let postsElements = props.posts.map(p =>
     <Post
+      key={p.id}
       id={p.id}
       message={p.message}
       likeCount={p.likeCount}
@@ -28,7 +29,7 @@ const MyPosts = (props) => {
   return (
     <div className={s.myPosts}>
       <h2>My Posts</h2>
-      <div class={s.createPost}>
+      <div className={s.createPost}>
         <textarea
           onChange={onPostChange}
           ref={newPostElement}
